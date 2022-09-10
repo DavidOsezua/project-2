@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Budget App</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="head-container">
+      <p class="item">available budget in september:</p>
+      <h1 class="amount item">+1,654.45</h1>
+      <!-- income box -->
+      <div class="income-container item">
+        <p class="text space">income</p>
+        <p class="amt space">+3000.43</p>
+      </div>
+      <!-- end of income box -->
+      <!-- end of expense box -->
+      <div class="expense-container item">
+        <p class="text space">expenses</p>
+        <p class="amt space">-3050.43</p>
+        <!-- end of expense box -->
+      </div>
+    </header>
+    <!-- end of header-->
+
+    <section class="sec-container">
+      <div class="contain">
+        <select class="add-type">
+          <option value="inc" selected>+</option>
+          <option value="exp">-</option>
+        </select>
+        <input type="text" placeholder="Description" class="add-description" />
+        <input type="number" placeholder="value" class="add-value" />
+        <button class="btn text">enter</button>
+      </div>
+    </section>
+
+    <section class="incex-section">
+      <div class="incex-container">
+        <article class="income">
+          <h2 class="income-title">income</h2>
+          <div class="income-list">
+            <p class="item-description">website project</p>
+            <p class="item-value">3050.43</p>
+          </div>
+        </article>
+        <article class="expense">
+          <h2 class="expense-title">expense</h2>
+          <div class="expense-list">
+            <p class="item-description">Foodstuffs</p>
+            <p class="item-value">-3050.43</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

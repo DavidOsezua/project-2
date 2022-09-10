@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* global styles */
+.text {
+  text-transform: uppercase;
+}
+
+.space {
+  margin: 0 50px 0 50px;
+}
+
+/* end of global styles */
+
+/* header Area */
+
+.head-container {
+  background-image: url(/imgs/Background.jpg);
+  background-size: cover;
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.item {
+  margin-top: 15px;
+}
+
+.income-container {
+  display: flex;
+  background-color: aqua;
+  padding: 10px 0 10px 0;
+  color: #131313;
+}
+
+.expense-container {
+  display: flex;
+  background-color: #dc143c;
+  padding: 10px 0 10px 0;
+}
+
+/* End of Header Area */
+
+/*Section Area*/
+.sec-container {
+  height: 50px;
+  background-color: rgb(214, 225, 235);
+  /* padding-top: 1rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contain {
+  margin-left: 80px;
+}
+input {
+  margin-right: 5px;
+  padding: 5px;
+  outline-style: none;
+}
+
+.add-type {
+  width: 35px;
+  height: 30px;
+  outline-style: none;
+  position: relative;
+}
+
+.add-description {
+  width: 350px;
+  height: 30px;
+}
+
+.add-value {
+  height: 30px;
+  width: 60px;
+}
+
+.btn {
+  background-color: transparent;
+  border-color: aqua;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  color: rgb(22, 131, 131);
+}
+
+/* income and expense section */
+
+.incex-section {
+  padding-top: 3rem;
+}
+/* end income and expense section */
